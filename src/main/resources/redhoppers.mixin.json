@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "io.github.jacobcaraballo.redhoppers.mixin",
+  "refmap": "redhoppers-refmap.json",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "HopperBlockEntityMixin",
+    "HopperCooldownAccessor",
+    "SlotMixin",
+    "UpsideDownHopperMixin",
+    "UpsideDownHopperModelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"r r",
+		"rcr",
+		" r "
+	],
+	"key": {
+		"c": {
+			"item": "minecraft:chest"
+		},
+		"r": {
+			"item": "minecraft:redstone"
+		}
+	},
+	"result": {
+		"item": "redhoppers:red_hopper",
+		"count": 1
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "redhoppers",
+	"version": "${version}",
+	"name": "Red Hoppers",
+	"description": "Adds a filterable hopper to Minecraft.",
+	"authors": [
+		"jacobcaraballo"
+	],
+	"contact": {
+		"homepage": "https://github.com/jacobcaraballo/red-hoppers#readme",
+		"issues": "https://github.com/jacobcaraballo/red-hoppers/issues"
+	},
+	"entrypoints": {
+		"main": [
+			"io.github.jacobcaraballo.redhoppers.Main"
+		],
+		"client": [
+			"io.github.jacobcaraballo.redhoppers.ClientMain"
+		]
+	},
+	"mixins": [
+		"redhoppers.mixin.json"
+	],
+	"license": "MIT",
+	"icon": "assets/redhoppers/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0",
+		"fabric": "*"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"parent": "block/hopper_side",
+	"textures": {
+		"particle": "block/redstone_block",
+		"top": "block/redstone_block",
+		"side": "block/redstone_block",
+		"inside": "block/redstone_block"
+	}
+}

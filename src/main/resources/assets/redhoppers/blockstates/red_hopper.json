@@ -1,0 +1,25 @@
+{
+	"variants": {
+		"facing=down": {
+			"model": "redhoppers:block/red_hopper"
+		},
+		"facing=up": {
+			"model": "redhoppers:block/red_hopper_inverted"
+		},
+		"facing=east": {
+			"model": "redhoppers:block/red_hopper_side",
+			"y": 90
+		},
+		"facing=north": {
+			"model": "redhoppers:block/red_hopper_side"
+		},
+		"facing=south": {
+			"model": "redhoppers:block/red_hopper_side",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "redhoppers:block/red_hopper_side",
+			"y": 270
+		}
+	}
+}
