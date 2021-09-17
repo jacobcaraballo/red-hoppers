@@ -77,8 +77,16 @@ public class RedHopperBlockEntity extends HopperBlockEntity implements SidedInve
 	@Nullable
 	private Inventory getTargetInventory() {
 		if (world == null) return null;
+		
 		Direction direction = getCachedState().get(HopperBlock.FACING);
-		return getInventoryAt(world, pos.offset(direction));
+		Inventory inventory = getInventoryAt(world, pos.offset(direction));
+		
+		if (inventory == this) return null;
+		
+		if (inventory instanceof RedHopperBlockEntity redHopper)
+			return redHopper.getTargetInventory();
+		
+		return inventory;
 	}
 
 }
